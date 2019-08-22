@@ -12,6 +12,11 @@ spring:
   applocation: 
     name: microservicecloud-config-client
 
+info: 
+ profile: dev
+ auctor: hddd
+ time: 2019-8-22
+
 eureka: 
   instance: 
     prefer-ip-address: true
@@ -36,4 +41,8 @@ eureka:
   client: 
     service-url: 
      defaultZone: http://eureka7001.com:7001/eureka/
+info: 
+ profile: test
+ auctor: hddd
+ time: 2019-8-22
 
