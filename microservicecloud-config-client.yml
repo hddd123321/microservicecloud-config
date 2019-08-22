@@ -13,9 +13,14 @@ spring:
     name: microservicecloud-config-client
 
 eureka: 
+  instance:
+ 
+    prefer-ip-address: true
+ 
+    instance-id: microservicecloud-config-client-dev
   client: 
     service-url: 
-     defaultZone: http://eureka-dev.com:7001/eureka/
+     defaultZone: http://eureka7001.com:7001/eureka/
 
 ---
 server: 
@@ -27,6 +32,11 @@ spring:
     name: microservicecloud-config-client
 
 eureka: 
+  instance:
+ 
+    prefer-ip-address: true
+ 
+    instance-id: microservicecloud-config-client-test
   client: 
     service-url: 
-     defaultZone: http://eureka-test.com:7001/eureka/
+     defaultZone: http://eureka7001.com:7001/eureka/
