@@ -13,7 +13,7 @@ spring:
     name: microservicecloud-config-client
 
 eureka: 
-   instance:
+  instance:
     prefer-ip-address: true
     instance-id: microservicecloud-config-client-dev
     
